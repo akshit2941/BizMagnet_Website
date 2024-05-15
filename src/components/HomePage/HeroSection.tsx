@@ -29,13 +29,13 @@ const HeroSection: React.FC = () => {
                 {/* Image */}
                 <div className="border rounded-xl p-6 static bg-slate-100">
                     {/* img */}
-                    <img src={heroImage} alt="HeroImage" className="rounded-lg " />
+                    <img src={heroImage} alt="HeroImage" className="rounded-lg" />
                 </div>
             </div>
 
             {/* Second Section */}
             <div className="pl-5p pr-5p mt-48 mb-10">
-                <div className="flex border p-20 border-solid border-gray-300 rounded-3xl bg-[#f6fcff]">
+                <div className="flex border p-20 border-solid border-gray-300 rounded-3xl bg-[#f6fcff] shadow-custom">
                     <div className="flex flex-col text-center">
                         <h1 className="font-bold text-3xl text-[#294A5E]">
                             Advancing your marketing strategies
